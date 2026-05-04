@@ -41,5 +41,20 @@ const RELAY_SELECTORS = {
       "[data-message-author-role=\"assistant\"]"
     ],
     container: "main"
+  },
+
+  "gemini.google.com": {
+    platform: "Gemini",
+    user: [
+      "user-query-content .query-text",
+      "user-query-content .query-content",
+      "user-query-content"
+    ],
+    assistant: [
+      "model-response .markdown",
+      "model-response .response-content",
+      "model-response"
+    ],
+    container: ".chat-history"
   }
 };

@@ -24,7 +24,7 @@
   const copyLabel        = document.getElementById("copy-label");
 
   // ── Supported hostnames ─────────────────────────────────────
-  const SUPPORTED_HOSTS = ["claude.ai", "chatgpt.com", "chat.openai.com"];
+  const SUPPORTED_HOSTS = ["claude.ai", "chatgpt.com", "chat.openai.com", "gemini.google.com"];
 
   let handoffDocument = "";
 
@@ -150,7 +150,8 @@
     const platformNames = {
       "claude.ai": "Claude.ai",
       "chatgpt.com": "ChatGPT",
-      "chat.openai.com": "ChatGPT"
+      "chat.openai.com": "ChatGPT",
+      "gemini.google.com": "Gemini"
     };
     platformLabel.textContent = platformNames[hostname] || hostname;
 

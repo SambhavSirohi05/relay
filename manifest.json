@@ -28,7 +28,8 @@
       "matches": [
         "https://claude.ai/*",
         "https://chatgpt.com/*",
-        "https://chat.openai.com/*"
+        "https://chat.openai.com/*",
+        "https://gemini.google.com/*"
       ],
       "js": ["selectors.js", "content.js"],
       "run_at": "document_idle"
