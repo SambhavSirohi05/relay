@@ -14,7 +14,6 @@
   const stateError       = document.getElementById("state-error");
   const stateReady       = document.getElementById("state-ready");
   const platformLabel    = document.getElementById("platform-label");
-  const statusDot        = document.getElementById("status-dot");
   const statMessages     = document.getElementById("stat-messages");
   const statChars        = document.getElementById("stat-chars");
   const previewContent   = document.getElementById("preview-content");
@@ -269,7 +268,6 @@
     // Check if supported
     if (!SUPPORTED_HOSTS.includes(hostname)) {
       showState("unsupported");
-      statusDot.style.opacity = "0.3";
       return;
     }
 
