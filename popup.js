@@ -23,7 +23,6 @@
   const iconCheck        = document.getElementById("icon-check");
   const copyLabel        = document.getElementById("copy-label");
   const compressToggle   = document.getElementById("compress-toggle");
-  const compressToggleContainer = document.getElementById("compress-toggle-container");
 
   // ── Supported hostnames ─────────────────────────────────────
   const SUPPORTED_HOSTS = ["claude.ai", "chatgpt.com", "chat.openai.com", "gemini.google.com"];
